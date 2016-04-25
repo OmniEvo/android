@@ -10,7 +10,7 @@ To build OmniEvo from source, you'll need to be familiar with
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/OmniEvo/androidt.git -b evoM
+	repo init -u https://github.com/OmniEvo/android.git -b evoM
 
 Then to sync source, use this command:
 
