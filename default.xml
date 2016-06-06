@@ -484,7 +484,7 @@
   <!-- Angler -->
   <project name="android_kernel_huawei_angler" path="kernel/huawei/angler" remote="omnirom" revision="android-6.0" />
   <project name="android_device_huawei_angler" path="device/huawei/angler" remote="omnirom" revision="android-6.0" />
-  <project name="proprietary_vendor_huawei" path="vendor/moto" remote="evo" revision="evoM" />
+  <project name="proprietary_vendor_huawei" path="vendor/huawei" remote="evo" revision="evoM" />
   <!-- OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="evo" revision="evoM" />
   <project path="OTA_config" name="OTA_config" remote="evo" revision="master" >
