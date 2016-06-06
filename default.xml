@@ -481,6 +481,10 @@
   <project name="omnievo_device_moto_shamu" path="device/moto/shamu" remote="evo" revision="evoM" />
   <project name="proprietary_vendor_moto" path="vendor/moto" remote="evo" revision="evoM" />
   <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="omnirom" revision="android-6.0" />  
+  <!-- Angler -->
+  <project name="android_kernel_huawei_angler" path="kernel/huawei/angler" remote="omnirom" revision="android-6.0" />
+  <project name="android_device_huawei_angler" path="device/huawei/angler" remote="omnirom" revision="android-6.0" />
+  <project name="proprietary_vendor_huawei" path="vendor/moto" remote="evo" revision="evoM" />
   <!-- OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="evo" revision="evoM" />
   <project path="OTA_config" name="OTA_config" remote="evo" revision="master" >
