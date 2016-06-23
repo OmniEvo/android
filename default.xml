@@ -4,9 +4,6 @@
   <remote  name="xda"
            fetch=".." />
 
-  <remote name="bb"
-          fetch="https://bitbucket.org/" />
-          
   <remote  name="github"
            fetch="https://github.com/" />
 
@@ -492,12 +489,4 @@
   <project path="OTA_config" name="OTA_config" remote="evo" revision="master" >
       <copyfile src="ota_conf" dest="ota_conf" />
   </project>  
-  
-  <!-- Start Uber Toolchains -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="UBERTC/aarch64-linux-android-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.3-kernel" name="UBERTC/aarch64-linux-android-5.3-kernel" remote="bb" revision="master" />
-<!-- End Uber Toolchains -->
 </manifest>
