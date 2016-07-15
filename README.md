@@ -75,7 +75,7 @@ $ source ~/.bashrc
 
 ```shell
 $ mkdir ~/evo-rom && cd ~/evo-rom
-$ repo init -u https://github.com/OmniEvo/android.git -b evoM -g all,-notdefault,-darwin
+$ repo init -u https://github.com/OmniEvo/android.git -b oms -g all,-notdefault,-darwin
 $ repo sync -j#
 
 Where # is the specific number of jobs, 4 is default, change in accordance to internet performance/bandwidth/speed. Default is 4.
