@@ -480,7 +480,8 @@
   <project name="omnievo_kernel_moto_shamu" path="kernel/moto/shamu" remote="evo" revision="evoM" />
   <project name="omnievo_device_moto_shamu" path="device/moto/shamu" remote="evo" revision="evoM" />
   <project name="proprietary_vendor_moto" path="vendor/moto" remote="evo" revision="evoM" />
-  <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="omnirom" revision="android-6.0" />  
+  <project name="android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="omnirom" revision="android-6.0" /> 
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />  
   <!-- Angler -->
   <project name="android_kernel_huawei_angler" path="kernel/huawei/angler" remote="omnirom" revision="android-6.0" />
   <project name="android_device_huawei_angler" path="device/huawei/angler" remote="omnirom" revision="android-6.0" />
